@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>윤회 (輪廻) — 업보의 길</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- 배경 장식 -->
+  <div id="bg-overlay"></div>
+
+  <div id="app">
+
+    <!-- 타이틀 헤더 -->
+    <header id="game-header">
+      <div id="title-ko">윤회 (輪廻)</div>
+      <div id="title-sub">업보의 길</div>
+    </header>
+
+    <!-- ── 시나리오 화면 ── -->
+    <div id="screen-scenario">
+
+      <!-- 캐릭터 캔버스 -->
+      <div id="character-wrap">
+        <canvas id="char-canvas" width="96" height="96"></canvas>
+        <div id="realm-label"></div>
+      </div>
+
+      <!-- 업보 바 -->
+      <div id="karma-section">
+        <div id="karma-label">업보 <span id="karma-value">+0</span></div>
+        <div id="karma-bar-wrap">
+          <div id="karma-bar-neg"></div>
+          <div id="karma-bar-center"></div>
+          <div id="karma-bar-pos"></div>
+        </div>
+        <div id="karma-range-labels">
+          <span>-100</span><span>0</span><span>+100</span>
+        </div>
+      </div>
+
+      <!-- 진행도 -->
+      <div id="progress-section">
+        <div id="progress-text">1 / 52</div>
+        <div id="progress-bar-wrap"><div id="progress-bar"></div></div>
+      </div>
+
+      <!-- 시나리오 카드 -->
+      <div id="scenario-card">
+        <div id="category"></div>
+        <div id="scenario-text"></div>
+        <div id="choices"></div>
+      </div>
+
+    </div>
+
+    <!-- ── 결과 화면 ── -->
+    <div id="screen-result" style="display:none;">
+      <canvas id="result-canvas" width="128" height="128"></canvas>
+      <div id="result-realm-emoji"></div>
+      <div id="result-realm-name"></div>
+      <div id="result-karma-text"></div>
+      <div id="result-desc"></div>
+      <button id="btn-restart">⟳ 다시 태어나기</button>
+    </div>
+
+  </div>
+
+  <script src="js/game.js"></script>
+</body>
+</html>
