@@ -322,6 +322,16 @@ body[data-realm="지옥"] { background: radial-gradient(ellipse at top, #1a0000 
   background: rgba(200,151,58,0.28);
 }
 
+/* ── 사찰 태그 ── */
+#temple-tag {
+  margin-top: 22px;
+  font-size: 0.95rem;        /* 메인 타이틀(1.9rem)보다 작게 */
+  color: rgba(200,151,58,0.55);
+  letter-spacing: 0.15em;
+  text-align: left;
+  padding-left: 4px;
+}
+
 /* ── 모바일 터치 ── */
 @media (max-width: 480px) {
   #title-ko { font-size: 1.5rem; }
