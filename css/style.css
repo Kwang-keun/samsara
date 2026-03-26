@@ -32,6 +32,7 @@ body {
 body[data-realm="천상"] { background: radial-gradient(ellipse at top, #2a1f00 0%, #0d0a06 70%); }
 body[data-realm="인간"] { background: radial-gradient(ellipse at top, #0a1f0a 0%, #0d0a06 70%); }
 body[data-realm="아수라"] { background: radial-gradient(ellipse at top, #1f0505 0%, #0d0a06 70%); }
+body[data-realm="아귀"] { background: radial-gradient(ellipse at top, #1a1400 0%, #0d0a06 70%); }
 body[data-realm="축생"] { background: radial-gradient(ellipse at top, #051205 0%, #0d0a06 70%); }
 body[data-realm="지옥"] { background: radial-gradient(ellipse at top, #1a0000 0%, #000 70%); }
 
